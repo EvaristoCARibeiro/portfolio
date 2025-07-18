@@ -830,11 +830,12 @@ main {
 }
 
 .resume-dot {
-  width: 18px;
-  height: 18px;
+  left: -36px !important;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--orange-yellow-crayola);
-  box-shadow: 0 0 0 4px var(--jet);
+  box-shadow: 0 0 0 3px var(--jet);
   display: block;
 }
 
