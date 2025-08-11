@@ -723,12 +723,12 @@ main {
 
 
 /**
- * #clients 
+ * #skill-logos
  */
 
-.clients { margin-bottom: 15px; }
+.skill-logos { margin-bottom: 15px; }
 
-.clients-list {
+.skill-logos-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -743,18 +743,18 @@ main {
   scroll-padding-inline: 25px;
 }
 
-.clients-item {
+.skill-logos-item {
   min-width: 50%;
   scroll-snap-align: start;
 }
 
-.clients-item img {
+.skill-logos-item img {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.skill-logos-item img:hover { filter: grayscale(0); }
 
 
 
@@ -1148,10 +1148,10 @@ main {
 @media (min-width: 450px) {
 
   /**
-   * client
+   * skill logo
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  .skill-logos-item { min-width: calc(33.33% - 10px); }
 
 
 
@@ -1383,16 +1383,16 @@ main {
     width: 35px;
   }
 
-  /* clients */
+  /* skill logos */
 
-  .clients-list {
+  .skill-logos-list {
     gap: 50px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
+  .skill-logos-item { min-width: calc(33.33% - 35px); }
 
 
 
@@ -1646,9 +1646,9 @@ main {
 
   .testimonials-item { min-width: calc(50% - 15px); }
 
-  /* clients */
+  /* skill logos */
 
-  .clients-item { min-width: calc(25% - 38px); }
+  .skill-logos-item { min-width: calc(25% - 38px); }
 
 
 
