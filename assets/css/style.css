@@ -732,11 +732,12 @@ main {
   100% { transform: scale(1); }
 }
 
-.project-item > a { width: 100%; }
+.project-item > a { width: 100%; max-width: 600px; }
 
 .project-img {
   position: relative;
   width: 100%;
+  max-width: 600px;
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
@@ -847,7 +848,7 @@ main {
      * #PORTFOLIO
      */
 
-    .project-img { height: auto; }
+    .project-img { height: 450px; }
 
 }
 
