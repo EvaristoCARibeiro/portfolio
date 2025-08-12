@@ -515,17 +515,13 @@ main {
 }
 
 .skill-logos-item {
-
   min-width: 40px;
-
   scroll-snap-align: start;
 }
 
 .skill-logos-item img {
-
-  width: 12px;
-  height: 12px;
-
+  width: 40px;
+  height: 40px;
   transition: var(--transition-1);
 }
 
@@ -840,12 +836,13 @@ main {
 @media (min-width: 450px) {
 
   /**
-   * #PORTFOLIO
+   * skill logo
    */
 
-
-
   .skill-logos-item { min-width: 40px; }
+
+
+=======
 
 
     /**
@@ -857,9 +854,10 @@ main {
 }
 
 
-    }
 
-  /**
+
+
+/**
  * responsive larger than 580px screen
  */
 
@@ -1002,10 +1000,13 @@ main {
     scroll-padding-inline: 45px;
   }
 
-
   .skill-logos-item { min-width: 40px; }
 
 
+
+  /**
+   * #RESUME
+   */
 
   .timeline-list { margin-left: 65px; }
 
@@ -1230,7 +1231,7 @@ main {
    */
 
 
-
+  /* skill logos */
 
   .skill-logos-item { min-width: 40px; }
 
@@ -1242,6 +1243,12 @@ main {
 }
 
 
+
+
+
+/**
+ * responsive larger than 1250px screen
+ */
 
 @media (min-width: 1250px) {
 
