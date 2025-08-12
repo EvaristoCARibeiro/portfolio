@@ -736,7 +736,6 @@ main {
   position: relative;
   width: 100%;
   max-width: 600px;
-  aspect-ratio: 4 / 3;
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
@@ -841,8 +840,6 @@ main {
 
   .skill-logos-item { min-width: 40px; }
 
-
-=======
 
 
     /**
