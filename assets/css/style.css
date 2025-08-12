@@ -834,26 +834,14 @@ main {
 @media (min-width: 450px) {
 
   /**
-   * skill logo
+   * #PORTFOLIO
    */
 
-  .skill-logos-item { min-width: 12px; }
+  .project-img { height: auto; }
 
+    }
 
-
-    /**
-     * #PORTFOLIO
-     */
-
-    .project-img { height: auto; }
-
-}
-
-
-
-
-
-/**
+  /**
  * responsive larger than 580px screen
  */
 
@@ -996,13 +984,9 @@ main {
     scroll-padding-inline: 45px;
   }
 
-  .skill-logos-item { min-width: 12px; }
-
-
-
-  /**
-   * #RESUME
-   */
+    /**
+     * #RESUME
+     */
 
   .timeline-list { margin-left: 65px; }
 
@@ -1227,21 +1211,8 @@ main {
    */
 
 
-  /* skill logos */
-
-  .skill-logos-item { min-width: 12px; }
-
-
-
-
-
-
-}
-
-
-
-
-
+/* skill logos */
+  }
 /**
  * responsive larger than 1250px screen
  */
