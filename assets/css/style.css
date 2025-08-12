@@ -515,17 +515,15 @@ main {
 }
 
 .skill-logos-item {
-  min-width: 50%;
+  min-width: 40px;
   scroll-snap-align: start;
 }
 
 .skill-logos-item img {
-  width: 100%;
-  filter: grayscale(1);
+  width: 40px;
+  height: 40px;
   transition: var(--transition-1);
 }
-
-.skill-logos-item img:hover { filter: grayscale(0); }
 
 
 
@@ -839,7 +837,7 @@ main {
    * skill logo
    */
 
-  .skill-logos-item { min-width: calc(33.33% - 10px); }
+  .skill-logos-item { min-width: 40px; }
 
 
 
@@ -998,7 +996,7 @@ main {
     scroll-padding-inline: 45px;
   }
 
-  .skill-logos-item { min-width: calc(33.33% - 35px); }
+  .skill-logos-item { min-width: 40px; }
 
 
 
@@ -1231,7 +1229,7 @@ main {
 
   /* skill logos */
 
-  .skill-logos-item { min-width: calc(25% - 38px); }
+  .skill-logos-item { min-width: 40px; }
 
 
 
