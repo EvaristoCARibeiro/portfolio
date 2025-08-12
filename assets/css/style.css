@@ -732,12 +732,13 @@ main {
   100% { transform: scale(1); }
 }
 
-.project-item > a { width: 100%; }
+.project-item > a { width: 100%; max-width: 600px; }
 
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  max-width: 600px;
+  aspect-ratio: 4 / 3;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -840,14 +841,6 @@ main {
    */
 
   .skill-logos-item { min-width: calc(33.33% - 10px); }
-
-
-
-    /**
-     * #PORTFOLIO
-     */
-
-    .project-img { height: auto; }
 
 }
 
